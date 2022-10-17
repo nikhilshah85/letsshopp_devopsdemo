@@ -13,6 +13,10 @@ namespace shoppingAPPMVC_Demo_DevOps.Controllers
             _logger = logger;
         }
 
+        public IActionResult Products()
+        {
+            return View();
+        }
         public IActionResult Index()
         {
             return View();
